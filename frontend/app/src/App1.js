@@ -1,18 +1,19 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import {message} from 'antd';
 import './App.css';
 
 const App1 = () => {
     const [phoneNumber, setPhoneNumber] = useState('')
-    const [otp, setOtp] = useState('')
+    const [otp, setOtp] = useState('');
 
-    const verify = () =>{
-        axios.post('http://localhost:6123/login',
-        {phoneNumber,otp});
-        message.success('Login Success')
 
-    }
+    const verify =  () => {
+        axios.post('http://localhost:6123/login', {
+            phoneNumber,
+            otp
+        });
+    };
+
     return(
         <div class="container">
             <div class="loginform">

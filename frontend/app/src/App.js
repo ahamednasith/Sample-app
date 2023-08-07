@@ -9,7 +9,7 @@ const App = () => {
     const register =  () =>{
         axios.post('http://localhost:6123/signup',
         {phoneNumber});
-        message.success('OTP Send')
+        message.success('OTP Send Successfully')
     }
     return(
         <div class='container'>
