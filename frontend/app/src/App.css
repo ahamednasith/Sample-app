@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 900px;
+}
+
+.registerform {
+  background-color: burlywood;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginform {
+  background-color: antiquewhite;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  width: 600px;
+  height: 30px;
+  border: 10;
+  border-color: blueviolet;
+}
+.signup{
+  width: 90px;
+  height: 20px;
+  border-radius: 5;
+  border-color: aqua;
+  color: black;
+  background-color: aqua;
+}
+.input{
+    font-family: Arial;
+    font-size: 15;
+    font-weight: bold;
+    color: brown;
+    border-radius: 5;
+}
+.sendOtp{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    color: blue;
+    font-size: 20 ;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
